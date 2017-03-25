@@ -11,10 +11,10 @@ namespace PrairieKingMadeEasy
 
         public override T GenerateDefaultConfig<T>()
         {
-            this.alwaysInvincible = false;
-            this.infiniteCoins = false;
-            this.infiniteLives = false;
-            this.rapidFire = false;
+            this.alwaysInvincible = true;
+            this.infiniteCoins = true;
+            this.infiniteLives = true;
+            this.rapidFire = true;
 
             return (this as T);
         }
